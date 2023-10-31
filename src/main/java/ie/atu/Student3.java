@@ -1,26 +1,25 @@
 package ie.atu;
 
-
 import java.util.Scanner;
-public class Student1 {
 
+public class Student3 {
     private String name;
     private String userEmail;
     private String userCourse;
 
-    public Student1(String name, String userEmail, String userCourse){
+    public Student3(String name, String userEmail, String userCourse){
         this.name = name;
         this.userEmail = userEmail;
         this.userCourse = userCourse;
     }
 
-    public Student1() {
+    public Student3() {
         this.name = "";
         this.userEmail = "";
         this.userCourse = "";
     }
 
-    public void getUserdetails1(){
+    public void getUserdetails3(){
         Scanner scanner= new Scanner(System.in);
 
         System.out.println("Enter Name: ");
@@ -33,30 +32,7 @@ public class Student1 {
         this.userCourse = scanner.nextLine();
     }
 
-    public void displayInfo1(){
+    public void displayInfo3(){
         System.out.println("Name: " + name + ", Email: " + userEmail + ", Course enrolled: " + userCourse);
-    }
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getUserEmail() {
-        return userEmail;
-    }
-
-    public void setUserEmail(String userEmail) {
-        this.userEmail = userEmail;
-    }
-
-    public String getUserCourse() {
-        return userCourse;
-    }
-
-    public void setUserCourse(String userCourse) {
-        this.userCourse = userCourse;
     }
 }

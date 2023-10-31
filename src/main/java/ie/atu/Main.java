@@ -10,10 +10,10 @@ public class Main {
 
         Student1 user = new Student1();
 
-        user.getUserdetails();
+        user.getUserdetails1();
 
 
-        user.displayInfo();
+        user.displayInfo1();
 
         // new instance of student, constructor used to collect name,
         // getters and setters to collect email and course.
@@ -24,6 +24,16 @@ public class Main {
 
 
         user2.displayInfo2();
+
+        // new instance of student, constructors used to collect,
+        // name, email and course
+
+        Student3 user3 = new Student3();
+
+        user3.getUserdetails3();
+
+
+        user3.displayInfo3();
 
     }
 }
