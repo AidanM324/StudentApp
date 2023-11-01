@@ -8,17 +8,6 @@ public class Student1 {
     private String userEmail;
     private String userCourse;
 
-    public Student1(String name, String userEmail, String userCourse){
-        this.name = name;
-        this.userEmail = userEmail;
-        this.userCourse = userCourse;
-    }
-
-    public Student1() {
-        this.name = "";
-        this.userEmail = "";
-        this.userCourse = "";
-    }
 
     public void getUserdetails1(){
         Scanner scanner= new Scanner(System.in);
@@ -37,14 +26,17 @@ public class Student1 {
         System.out.println("Name: " + name + ", Email: " + userEmail + ", Course enrolled: " + userCourse);
     }
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public String getUserEmail() {
+
         return userEmail;
     }
 
@@ -53,10 +45,12 @@ public class Student1 {
     }
 
     public String getUserCourse() {
+
         return userCourse;
     }
 
     public void setUserCourse(String userCourse) {
+
         this.userCourse = userCourse;
     }
 }
